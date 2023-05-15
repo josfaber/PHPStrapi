@@ -1,6 +1,6 @@
 {
     "name": "jf/phpstrapi",
-    "description": "Strapi PHP CLient",
+    "description": "Strapi PHP Client",
     "keywords": [
         "strapi"
     ],
@@ -14,7 +14,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^8.0|^8.1"
+        "php": "^8.0|^8.1",
+        "symfony/routing": "^6.2"
     },
     "autoload": {
         "psr-4": {
