@@ -1,0 +1,27 @@
+{
+    "name": "jf/phpstrapi",
+    "description": "Strapi PHP CLient",
+    "keywords": [
+        "strapi"
+    ],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Jos",
+            "email": "mail@josfaber.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0|^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "JF\\PHPStrapi\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
